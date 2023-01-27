@@ -1,0 +1,16 @@
+include templates/header
+body
+    include templates/navbar
+    div 
+        ul.nav.nav-pills
+            each item in videoFilters
+                li.nav-item
+                    a.nav-link.text-uppercase(href="/video/dashboard/"+ item ) #{item}
+    div
+        a(href="/video/new_video") Share Video 
+
+
+      
+    
+
+    

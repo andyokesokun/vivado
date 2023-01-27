@@ -1,0 +1,18 @@
+
+// Filename : ./pages/login.pug
+include templates/header
+body
+    .row
+    .col-4
+    .col-4
+        h1 Login Form
+        if authError
+          p.text-red #{authError}
+        form(role='form' method='POST' action='/auth/login')
+          div.form-group
+              label(for='username') username:
+              input#username.form-control(type='text', placeholder='username' name='username', required)
+          div.form-group
+              label(for='password') Password:
+              input#password.form-control(type='password' name='password')
+          button.btn.btn-primary(type="submit", name="") Login

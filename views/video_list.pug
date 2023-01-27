@@ -1,0 +1,17 @@
+include templates/header
+body
+    include templates/navbar
+    h1.mt-5.mt-3 Videos
+    div.d-flex.flex-row.flex-wrap.mt-5
+        each item in videos
+            div.p-2.frame-holder.ml-4
+                iframe(src= item.url, title= item.title, frameborder="0", allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+                
+    
+
+
+      
+    
+    
+
+    

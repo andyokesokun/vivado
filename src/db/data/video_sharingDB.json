@@ -1,0 +1,41 @@
+{
+    "users": [
+        {
+            "name": "Andrew",
+            "email": "aokesokun@gmail.com",
+            "password": "Amontop5253"
+        },
+        {
+            "name": "Joe",
+            "email": "an@gmail.com",
+            "password": "sdlldld"
+        }
+    ],
+    "user_videos": [
+        {
+            "email": "aokesokun@gmail.com",
+            "title": "SignalR implementation",
+            "url": "https://www.youtube.com/embed/Q4gWbnNb7Ek&t=822s"
+        },
+        {
+            "email": "aokesokun@gmail.com",
+            "title": "Learn React State",
+            "url": "https://www.youtube.com/embed/PJfXM6u9M-g"
+        },
+        {
+            "email": "aokesokun@gmail.com",
+            "title": "hooks",
+            "url": "https://www.youtube.com/embed/iTJ7BExE_cM&t=367s"
+        },
+        {
+            "email": "an@gmail.com",
+            "title": "Funny Moments",
+            "url": "https://www.youtube.com/embed/sGxw7ipTrq8"
+        },
+        {
+            "email": "an@gmail.com",
+            "title": "Funny Animal Videos",
+            "url": "https://www.youtube.com/embed/ipyyvsLUt_Q"
+        }
+    ]
+}

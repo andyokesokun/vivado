@@ -1,0 +1,19 @@
+include templates/header
+body
+  include templates/navbar
+  .row
+    .col-4
+    .col-4
+      h1 Upload Video
+      form(role='form' method='POST' action='/video/new')
+        div.form-group
+          label(for='title') Title:
+          input#title.form-control(type='text', placeholder='Enter title' name='title')
+        div.form-group
+          label(for='video') Video Url
+          input#video.form-control(type='url', placeholder='Enter video url' name='url')
+        button.btn.btn-primary(type="submit", name="") Add video
+
+        if message
+          li #{message}
+      
